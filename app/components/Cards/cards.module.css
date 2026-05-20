@@ -1,0 +1,59 @@
+.simpleCard {
+  color: #000;
+  border: 1px solid var(--dark-blue);
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+  width: 500px;
+  border-radius: 8px;
+}
+
+.diferentialCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--dark-blue);
+  padding: 1em;
+  width: 300px;
+  height: 200px;
+  border-radius: 1em;
+}
+.diferentialCardText {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.diferentialCardText h2 {
+  font-size: 1.5em;
+  color: #000;
+}
+
+.diferentialCardText p {
+  font-size: 1.1em;
+  color: #888;
+}
+
+.compromiseCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 2em;
+  border: 1px solid var(--dark-blue);
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 1em;
+}
+.compromiseCardIconText {
+  display: flex;
+  gap: 3em;
+  padding-left: 1em;
+}
+.compromiseCardText h2 {
+  color: #888;
+  font-size: 1.2em;
+}
+
+.compromiseCardText p {
+  font-size: 1.5em;
+  color: #000;
+}
