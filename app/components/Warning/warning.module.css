@@ -1,7 +1,14 @@
 .warningBox {
   display: flex;
-  border: 1px solid #000;
-  width: 190px;
+  border: 1px solid #1a2f4d;
+  background: #1a2f4d;
+  backdrop-filter: blur(16px);
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
   border-radius: 2em;
   padding: 4px;
   gap: 0.2em;

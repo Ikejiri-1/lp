@@ -1,5 +1,6 @@
 .responseBox {
   display: flex;
   font-size: 13px;
-  color: #888;
+  color: #eaeaea;
+  gap: 0.3em;
 }

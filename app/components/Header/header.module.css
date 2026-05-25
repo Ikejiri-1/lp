@@ -1,0 +1,46 @@
+.image {
+  width: 100px;
+}
+.phoneImage {
+  width: 600px;
+}
+.heading {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 5em auto 5em auto;
+}
+.containerText {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.title {
+  font-size: 4em;
+  width: 80%;
+  color: #eaeaea;
+}
+.subTitle {
+  font-size: 16px;
+  color: #eaeaea;
+  width: 70%;
+}
+.buttonIcon {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-self: baseline;
+  gap: 0.5em;
+}
+.header {
+  background-image: linear-gradient(
+    225deg,
+    #1a2f4d 0%,
+    #585754 48%,
+    #1a2f4d 100%
+  );
+}
