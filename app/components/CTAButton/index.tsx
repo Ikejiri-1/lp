@@ -17,7 +17,7 @@ export default function CTAButton({ buttonText }: ButtonProps) {
         padding: "1em 2em",
         background: "#1a2f4d",
         color: "#eaeaea",
-        border: "1px solid var(--dark-blue)",
+        border: "1px solid #416392",
         textTransform: "none",
         transition: "letter-spacing 0.2s ease, background-color 0.2s ease",
 

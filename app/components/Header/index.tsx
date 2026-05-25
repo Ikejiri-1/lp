@@ -16,7 +16,7 @@ export const Header = () => {
             alt="Logo dos advogados Alves e Ikejiri"
             className={styles.image}
           />
-          <span>Alves & Ikejiri Advogados</span>
+          <span className={styles.names}>Alves & Ikejiri Advogados</span>
         </Box>
         <Box className={styles.container}>
           <Box className={styles.containerText}>

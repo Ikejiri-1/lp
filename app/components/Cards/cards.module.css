@@ -14,7 +14,8 @@
   border: 1px solid var(--dark-blue);
   padding: 1em;
   width: 300px;
-  height: 200px;
+  height: 250px;
+  text-align: center;
   border-radius: 1em;
 }
 .diferentialCardText {
@@ -25,7 +26,7 @@
 }
 
 .diferentialCardText h2 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #000;
 }
 
@@ -37,9 +38,10 @@
 .compromiseCard {
   display: flex;
   justify-content: space-between;
-  padding: 4em 2em;
+  background: linear-gradient(135deg, #1a2f4d 0%, #0d1829 100%);
+  padding: 4em 5em;
   border: 1px solid var(--dark-blue);
-  width: 80%;
+  width: 93%;
   margin: 0 auto;
   border-radius: 1em;
 }
@@ -49,11 +51,18 @@
   padding-left: 1em;
 }
 .compromiseCardText h2 {
-  color: #888;
+  color: #fff;
   font-size: 1.2em;
+  width: 80%;
 }
 
-.compromiseCardText p {
-  font-size: 1.5em;
-  color: #000;
+.compromiseCardText span {
+  font-size: 1.2em;
+  width: 20%;
+  color: #d29b35;
+}
+.compromiseCardButton {
+  width: 50%;
+  align-items: center;
+  align-self: center;
 }

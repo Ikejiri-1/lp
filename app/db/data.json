@@ -1,0 +1,47 @@
+{
+  "sections": [
+    {
+      "id": "problem",
+      "tag": "O PROBLEMA",
+      "title": "O sufoco de ter o dinheiro travado por uma decisão judicial",
+      "paragraphs": [
+        "Sabemos o quão desesperador é tentar usar o seu cartão, pagar uma conta essencial ou honrar a folha de pagamento da sua empresa e dar de cara com um bloqueio judicial.",
+        "A verdade é que o sistema bancário não espera, e cada hora com a conta travada acumula mais juros, prejudica sua reputação e sufoca suas finanças. Você não precisa passar por isso sozinho — nem aceitar o erro sem lutar."
+      ],
+      "features": []
+    },
+    {
+      "id": "solution",
+      "tag": "A SOLUÇÃO",
+      "title": "Desbloqueio de conta rápido e amparado pela lei",
+      "paragraphs": [
+        "Na Alves & Ikejiri Advogados, somos especialistas em Direito Civil e atuamos cirurgicamente para identificar a origem do bloqueio e pedir a liberação dos seus valores de forma imediata.",
+        "Muitas vezes, a penhora atinge verbas impenhoráveis — salários, poupança até 40 salários mínimos ou capital de giro essencial — o que torna o bloqueio ilegal. Nós sabemos exatamente como reverter essa situação."
+      ],
+      "features": [
+        {
+          "id": 1,
+          "text": "Identificação imediata da origem do bloqueio"
+        },
+        {
+          "id": 2,
+          "text": "Petição técnica de liberação de valores"
+        },
+        {
+          "id": 3,
+          "text": "Defesa de verbas impenhoráveis (salário, poupança, capital de giro)"
+        },
+        {
+          "id": 4,
+          "text": "Acompanhamento direto até o desbloqueio efetivo"
+        }
+      ]
+    },
+    {
+      "id": "cta_closure",
+      "title": "Não deixe o seu dinheiro travado por mais um dia.",
+      "subtitle": "Clique no botão abaixo para falar diretamente com um advogado especialista em Taubaté, com atendimento em todo o Brasil. Vamos analisar o seu caso agora mesmo.",
+      "buttonText": "SOLICITAR DESBLOQUEIO DE CONTA "
+    }
+  ]
+}

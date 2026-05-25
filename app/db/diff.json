@@ -1,0 +1,31 @@
+{
+  "section": {
+    "tag": "NOSSOS DIFERENCIAIS",
+    "title": "Por que nos escolher",
+    "items": [
+      {
+        "id": 1,
+        "title": "Agilidade Máxima",
+        "subtitle": "Sabemos que o seu caso é urgente. Iniciamos a análise e a petição técnica imediatamente.",
+        "iconType": "agility"
+      },
+      {
+        "id": 2,
+        "title": "Transparência Total",
+        "subtitle": "Você acompanha cada etapa do processo com clareza, sem juridiquês.",
+        "iconType": "transparency"
+      },
+      {
+        "id": 3,
+        "title": "Atendimento Personalizado",
+        "subtitle": "Soluções desenhadas para a sua realidade financeira ou empresarial.",
+        "iconType": "personal"
+      }
+    ]
+  },
+  "compromise": {
+    "tag": "COMPROMISSO ALVES & IKEJIRI",
+    "title": "Protocolamos o seu pedido de desbloqueio em menos de 24 horas após o envio da documentação. O tempo é o seu maior aliado.",
+    "hasButton": true
+  }
+}
