@@ -15,7 +15,8 @@ export default function CTAButton({ buttonText }: ButtonProps) {
       endIcon={<ArrowRightAltIcon />}
       sx={{
         padding: "1em 2em",
-        color: "var(--dark-blue)",
+        background: "#1a2f4d",
+        color: "#eaeaea",
         border: "1px solid var(--dark-blue)",
         textTransform: "none",
         transition: "letter-spacing 0.2s ease, background-color 0.2s ease",
@@ -26,7 +27,8 @@ export default function CTAButton({ buttonText }: ButtonProps) {
 
         "&:hover": {
           border: "1px solid var(--dark-blue)",
-          backgroundColor: "rgba(0, 51, 102, 0.04)",
+          backgroundColor: "rgba(8, 136, 77, 0.86)",
+          color: "#1a2f4d",
           letterSpacing: "0.06em",
 
           "& .MuiButton-endIcon": {
