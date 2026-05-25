@@ -1,6 +1,7 @@
 "use client";
 import Cards from "./components/Cards";
 import CTAButton from "./components/CTAButton";
+import { Response } from "./components/Response";
 import { Warning } from "./components/Warning";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
           button={true}
         />
         <Warning warningText="Atendimento urgente" />
+        <Response responseText="Resposta em poucos minutos" />
       </section>
     </>
   );
