@@ -1,6 +1,7 @@
 "use client";
 import Cards from "./components/Cards";
 import CTAButton from "./components/CTAButton";
+import { Warning } from "./components/Warning";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           cardSubtitle="texto texto texto texto texto"
           button={true}
         />
+        <Warning warningText="Atendimento urgente" />
       </section>
     </>
   );

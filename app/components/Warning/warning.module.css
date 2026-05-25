@@ -1,0 +1,8 @@
+.warningBox {
+  display: flex;
+  border: 1px solid #000;
+  width: 190px;
+  border-radius: 2em;
+  padding: 4px;
+  gap: 0.2em;
+}

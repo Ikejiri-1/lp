@@ -1,0 +1,44 @@
+{
+  "simpleCardData": [
+    {
+      "id": 1,
+      "content": "Identificação imediata da origem do bloqueio"
+    },
+    {
+      "id": 2,
+      "content": "Petição técnica de liberação de valores"
+    },
+    {
+      "id": 3,
+      "content": "Defesa de verbas impenhoráveis (salário, poupança, capital de giro)"
+    },
+    {
+      "id": 4,
+      "content": "Acompanhamento direto até o desbloqueio efetivo"
+    }
+  ],
+  "differentialCardData": [
+    {
+      "id": 1,
+      "title": "Agilidade Máxima",
+      "content": "Sabemos que o seu caso é urgente. Iniciamos a análise e a petição técnica imediatamente."
+    },
+    {
+      "id": 2,
+      "title": "Transparência Total",
+      "content": "Você acompanha cada etapa do processo com clareza, sem juridiquês."
+    },
+    {
+      "id": 3,
+      "title": "Atendimento Personalizado",
+      "content": "Soluções desenhadas para a sua realidade financeira ou empresarial."
+    }
+  ],
+  "compromiseCardData": [
+    {
+      "id": 1,
+      "title": "Compromisso Alves & Ikejiri",
+      "content": "Protocolamos o seu pedido de desbloqueio em menos de 24 horas após o envio da documentação. O tempo é o seu maior aliado."
+    }
+  ]
+}
