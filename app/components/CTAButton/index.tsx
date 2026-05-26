@@ -2,14 +2,22 @@
 import Button from "@mui/material/Button";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import { whatsappLink } from "@/app/utils/wppLink";
 
 interface ButtonProps {
   buttonText: string;
 }
 
 export default function CTAButton({ buttonText }: ButtonProps) {
+  const phone = "12981131591";
+  const message =
+    "Olá, tudo bem? \n Estou com minha conta bancária bloqueada e preciso de ajuda.";
   return (
     <Button
+      onClick={() => {
+        const url = whatsappLink(phone, message);
+        window.open(url, "_blank", "noopener,noreferrer");
+      }}
       variant="outlined"
       startIcon={<WhatsAppIcon />}
       endIcon={<ArrowRightAltIcon />}

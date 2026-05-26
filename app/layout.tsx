@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Neuton } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/Header";
+import { WppButton } from "./components/WppButton";
 
 const neutonSans = Neuton({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
+        <WppButton />
       </body>
     </html>
   );
