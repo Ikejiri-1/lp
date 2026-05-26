@@ -10,9 +10,6 @@
   background-color: #f4f7f9;
 }
 
-/* ==========================================
-   ESTILOS: SEÇÃO O PROBLEMA
-   ========================================== */
 .sectionProblem {
   max-width: 850px;
   margin: 0 auto;
@@ -22,7 +19,7 @@
 
 .tagProblem {
   color: #2e7d32;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -48,9 +45,6 @@
   margin-bottom: 20px;
 }
 
-/* ==========================================
-   ESTILOS: SEÇÃO A SOLUÇÃO
-   ========================================== */
 .sectionSolution {
   background-color: #eef5f9;
   padding: 90px 24px;
@@ -87,7 +81,7 @@
 
 .tagSolution {
   color: #1a2f4d;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -123,7 +117,7 @@
 
 .tagDiff {
   color: #2e7d32;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-align: center;
@@ -161,12 +155,7 @@
   display: flex;
   justify-content: center;
 }
-
-/* ==========================================
-   ESTILOS: SEÇÃO CTA FINAL / FECHAMENTO
-   ========================================== */
 .sectionCTAClosure {
-  /* Gradiente Radial refinado para criar o foco luminoso no centro */
   background: radial-gradient(circle, #1a2f4d 0%, #02062e 100%);
   padding: 110px 24px;
   width: 100%;
@@ -196,7 +185,7 @@
 
 .subtitleCTA {
   color: rgba(255, 255, 255, 0.85);
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.6;
   margin: 0 0 12px 0;
   max-width: 680px;

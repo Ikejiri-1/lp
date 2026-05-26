@@ -6,6 +6,7 @@ import Logo from "../../../public/logo_azul.png";
 import styles from "./header.module.css";
 import Phone from "../../../public/celular.png";
 import { Response } from "../Response";
+
 export const Header = () => {
   return (
     <>
@@ -18,26 +19,39 @@ export const Header = () => {
           />
           <span className={styles.names}>Alves & Ikejiri Advogados</span>
         </Box>
+
         <Box className={styles.container}>
           <Box className={styles.containerText}>
             <Warning warningText="Atendimento urgente" />
+
             <h1 className={styles.title}>
               Conta Bloqueada? Recupere seu dinheiro com agilidade.
             </h1>
+
+            {/* IMAGEM EXCLUSIVA DO MOBILE (Fica entre o título e subtítulo) */}
+            <Image
+              className={styles.phoneImageMobile}
+              src={Phone}
+              alt="Imagem de um celular exibindo bloqueio judicial"
+            />
+
             <p className={styles.subTitle}>
               Proteja seu patrimônio. Atuamos de forma rápida e transparente
               para reverter o bloqueio judicial da sua conta bancária
             </p>
+
             <Box className={styles.buttonIcon}>
               <CTAButton buttonText="FALE COM UM ADVOGADO AGORA" />
               <Response responseText="Resposta em poucos minutos" />
             </Box>
           </Box>
-          <Box>
+
+          {/* IMAGEM EXCLUSIVA DO DESKTOP (Fica no lado direito) */}
+          <Box className={styles.phoneWrapperDesktop}>
             <Image
               className={styles.phoneImage}
               src={Phone}
-              alt="Imagem de um celular, a conta bancária está aberta com R$0,00 reais e exibe uma mensagem: 'Bloqueio Judicial'"
+              alt="Imagem de um celular exibindo bloqueio judicial"
             />
           </Box>
         </Box>

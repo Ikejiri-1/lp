@@ -16,3 +16,7 @@
 .css-14ca1rq-MuiButtonBase-root-MuiButton-root:hover::after {
   transform: translateX(4px) !important;
 }
+
+body {
+  font-family: "Neuton";
+}

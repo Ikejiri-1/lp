@@ -1,3 +1,6 @@
+/* ==========================================================================
+   SEUS ESTILOS ORIGINAIS DE DESKTOP (Mantidos intactos)
+   ========================================================================== */
 .image {
   width: 100px;
   filter: brightness(0) invert(1);
@@ -7,6 +10,7 @@
 }
 .names {
   color: #fff;
+  font-size: 2em;
 }
 .heading {
   display: flex;
@@ -16,7 +20,7 @@
 }
 .container {
   display: flex;
-  width: 1200px;
+  max-width: 1000px;
   margin: 5em auto 5em auto;
 }
 .containerText {
@@ -26,13 +30,14 @@
 }
 .title {
   font-size: 4em;
-  width: 80%;
+  width: 90%;
   color: #eaeaea;
 }
 .subTitle {
   font-size: 16px;
   color: #eaeaea;
   width: 70%;
+  letter-spacing: 0.06em;
 }
 .buttonIcon {
   display: flex;
@@ -49,3 +54,99 @@
     #1a2f4d 100%
   );
 }
+
+/* --- CONTROLE DE EXIBIÇÃO NO DESKTOP --- */
+
+/* No computador, a imagem do meio do texto FICA ESCONDIDA */
+.phoneImageMobile {
+  display: none;
+}
+
+/* No computador, a imagem da direita FICA VISÍVEL */
+.phoneWrapperDesktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ==========================================================================
+   APENAS PARA MOBILE E TABLETS (Telas menores ou iguais a 1024px)
+   ========================================================================== */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+  .header {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .heading {
+    padding: 1.5em 1em;
+    justify-content: center;
+  }
+
+  .image {
+    width: 70px;
+  }
+
+  .names {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5em auto 4em auto;
+    width: 90%;
+    gap: 0;
+  }
+
+  .containerText {
+    align-items: center;
+    text-align: center;
+    gap: 1.5em;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 2.2em;
+    width: 100%;
+    margin: 0;
+  }
+
+  .subTitle {
+    font-size: 1.1em;
+    width: 100%;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .buttonIcon {
+    align-self: center;
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+    flex-direction: column; /* Empilha botão e a resposta */
+    gap: 1em;
+  }
+
+  /* 1. Ativamos a imagem que está entre o título e o subtítulo */
+  .phoneImageMobile {
+    display: block;
+    width: 100%;
+    max-width: 200px; /* Tamanho perfeito para o meio do texto no celular */
+    height: auto;
+    margin: 0.5em auto;
+  }
+
+  /* 2. Escondemos a caixa da imagem que ficava na direita do desktop */
+  .phoneWrapperDesktop {
+    display: none;
+  }
+}
+
+/* Faz o container principal virar uma coluna simples */
