@@ -1,0 +1,10 @@
+# Define regras para todos os robôs de busca (Google, Bing, etc.)
+User-agent: *
+Allow: /
+
+# Bloqueia caminhos internos do Next.js que não precisam ser indexados (pastas de build)
+Disallow: /_next/
+Disallow: /static/
+
+# Indica a localização exata do seu sitemap para os motores de busca
+Sitemap: https://alveseikejiriadvs.com.br/sitemap.xml

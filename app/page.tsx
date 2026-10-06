@@ -6,16 +6,12 @@ import Cards from "./components/Cards";
 import CTAButton from "./components/CTAButton";
 
 export default function Home() {
-  // 1. Filtragem dos dados da Primeira Parte (texts_v2.json)
   const problemSection = data.sections.find((s) => s.id === "problem");
   const solutionSection = data.sections.find((s) => s.id === "solution");
   const ctaClosure = data.sections.find((s) => s.id === "cta_closure");
 
   return (
     <main className={styles.mainContainer}>
-      {/* =========================================================================
-          SEÇÃO 1: O PROBLEMA (Layout Centralizado)
-         ========================================================================= */}
       {problemSection && (
         <section className={styles.sectionProblem}>
           <span className={styles.tagProblem}>{problemSection.tag}</span>
@@ -30,13 +26,9 @@ export default function Home() {
         </section>
       )}
 
-      {/* =========================================================================
-          SEÇÃO 2: A SOLUÇÃO (Layout Dual / Split com Grid)
-         ========================================================================= */}
       {solutionSection && (
         <section className={styles.sectionSolution}>
           <div className={styles.containerSolution}>
-            {/* Coluna da Esquerda: Textos Informativos */}
             <div className={styles.columnLeft}>
               <span className={styles.tagSolution}>{solutionSection.tag}</span>
               <h2 className={styles.titleSolution}>{solutionSection.title}</h2>
@@ -47,7 +39,6 @@ export default function Home() {
               ))}
             </div>
 
-            {/* Coluna da Direita: Lista de simpleCards */}
             <div className={styles.columnRight}>
               {solutionSection.features?.map((feature) => (
                 <Cards
@@ -60,15 +51,10 @@ export default function Home() {
           </div>
         </section>
       )}
-
-      {/* =========================================================================
-          SEÇÃO 3: NOSSOS DIFERENCIAIS & COMPROMISSO (Centralizados e Enquadrados)
-         ========================================================================= */}
       <section className={styles.sectionDifferentials}>
         <span className={styles.tagDiff}>{diffData.section.tag}</span>
         <h2 className={styles.titleDiff}>{diffData.section.title}</h2>
 
-        {/* Grid com os 3 cartões brancos */}
         <div className={styles.gridDifferentials}>
           {diffData.section.items.map((item) => (
             <Cards
@@ -81,7 +67,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Banner de Compromisso com o Degradê aplicado no CSS */}
         <div className={styles.containerCompromise}>
           <Cards
             type="compromisso"
@@ -91,21 +76,23 @@ export default function Home() {
           />
         </div>
       </section>
-
-      {/* =========================================================================
-          SEÇÃO 4: BANNER FINAL DE FECHAMENTO (CTA com Gradiente Radial)
-         ========================================================================= */}
       {ctaClosure && (
-        <section className={styles.sectionCTAClosure}>
-          <div className={styles.containerCTA}>
-            <h2 className={styles.titleCTA}>{ctaClosure.title}</h2>
-            <p className={styles.subtitleCTA}>{ctaClosure.subtitle}</p>
+        <>
+          <section className={styles.sectionCTAClosure}>
+            <div className={styles.containerCTA}>
+              <h2 className={styles.titleCTA}>{ctaClosure.title}</h2>
+              <p className={styles.subtitleCTA}>{ctaClosure.subtitle}</p>
 
-            <div className={styles.buttonWrapper}>
-              <CTAButton buttonText={ctaClosure.buttonText ?? ""} />
+              <div className={styles.buttonWrapper}>
+                <CTAButton buttonText={ctaClosure.buttonText ?? ""} />
+              </div>
             </div>
-          </div>
-        </section>
+            <div className={styles.names}>
+              <h3>Alves & Ikejiri Advogados | OAB/SP 69.959</h3>
+              <h3>CNPJ | 68.308.622/0001-15</h3>
+            </div>
+          </section>
+        </>
       )}
     </main>
   );

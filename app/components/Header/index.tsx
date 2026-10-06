@@ -50,6 +50,7 @@ export const Header = () => {
           <Box className={styles.phoneWrapperDesktop}>
             <Image
               className={styles.phoneImage}
+              priority
               src={Phone}
               alt="Imagem de um celular exibindo bloqueio judicial"
             />

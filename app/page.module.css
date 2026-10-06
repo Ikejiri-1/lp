@@ -162,6 +162,8 @@
   box-sizing: border-box;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  gap: 2em;
   align-items: center;
   text-align: center;
 }
@@ -196,7 +198,12 @@
   justify-content: center;
   width: 100%;
 }
-
+.names {
+  color: #02ddff;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
 @media (max-width: 768px) {
   .titleCTA {
     font-size: 30px;
